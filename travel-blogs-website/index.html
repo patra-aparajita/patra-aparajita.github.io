@@ -17,12 +17,12 @@
         #background-jumbotron {
           background-image: url('https://raw.githubusercontent.com/patra-aparajita/patra-aparajita.github.io/master/travel-blogs-website/coverpic.jpg');
           /*background-repeat: no-repeat;*/
-          background-attachment: fixed;
+          /*background-attachment: fixed;*/
           background-size: 100%, 100%;
-         /*opacity: 0.5;*/
-         /*z-index: 8;*/
+         opacity: 0.5;
+         /*z-index: -2;*/
           background-position: center;
-          background-blend-mode: overlay;
+          /*background-blend-mode: overlay;*/
 
         }
     </style>
@@ -59,10 +59,11 @@
   <main role="main">
 
     <section id="background-jumbotron" class="jumbotron text-right">
-      <div class="container">
+      <!-- <div class="background-image"></div> -->
+      <div id="crisp-text" class="container">
         
         <h1>Hello, People!</h1>
-        <p class="lead text-muted"  >Hope you are doing well!<br>
+        <p style="z-index: 10;" class="lead h1"><strong>Hope you are doing well!</strong><br>
            Welcome to the travel blogs by Aparajita</p>
         <p>
           <a href="https://apatrablog.wordpress.com/" class="btn btn-primary my-2">wordpress</a>
@@ -93,7 +94,7 @@
           <!-- 2 -->
           <div class="col-md-6">
             <div class="card mb-4 shadow-sm">
-              <img src="https://apatrablog.files.wordpress.com/2018/12/IMG_20181102_161542.jpg" width="100%">
+              <img src="https://raw.githubusercontent.com/patra-aparajita/patra-aparajita.github.io/master/travel-blogs-website/andaman.jpg" width="100%">
               <div class="card-body">
                 <p class="card-text"><span class="lead">Andaman Island : Should I visit <br></span><span class="text-primary">Then we went to the Laxmanpur-II beach. The beach is serene, with it’s silvery sand and different shades of water. If you happen to land early, click some solo beach photographs...</span></p>
                 <div class="d-flex justify-content-between align-items-center">
