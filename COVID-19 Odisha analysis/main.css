@@ -1,0 +1,14 @@
+h2 {
+background: #008080;
+text-align: center;
+color: white;
+padding: 10px;
+margin: 2;
+}
+#special {
+background: none;
+color: white;
+font-size: 140%;
+margin: 10px;
+
+}
