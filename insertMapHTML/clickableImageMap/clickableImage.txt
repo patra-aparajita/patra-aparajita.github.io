@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+<meta charset="utf-8" />
+<title> Create clickable image map with amutor.com </title>
+
+</head>
+
+
+
+
+
+</html>
