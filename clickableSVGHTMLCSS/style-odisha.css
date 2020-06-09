@@ -1,0 +1,66 @@
+body{
+    background-color:black !important;
+}
+.mapdiv{
+    width: 25%;
+    height: fit-content;
+    margin: auto;
+}
+.mapdiv path{
+    stroke-width: 4px;
+    transition: fill 0.3s;
+}
+.mapdiv :hover{
+    fill: rgb(179, 112, 58);
+}
+#odisha-map {
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: center;
+  }
+  path:hover, circle:hover {
+    stroke: #5a0b79 !important;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill: #cdcf62 !important;
+    cursor: pointer;
+  }
+  
+  #info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #1a1717;
+    border: 2px solid #BF0A30;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+  }
+  .myDiv {
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+    border: 5px outset red;
+    color: cornsilk;
+    background-color: black;    
+    text-align: center;
+  }
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    min-width: 1485px;
+    background-color:lightgoldenrodyellow;
+    
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  
+  }
+  
